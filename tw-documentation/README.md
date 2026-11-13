@@ -8,8 +8,8 @@ This repository documents what I learned in my Technical Writing class about six
 
 | # | Topic | Documentation | Example files |
 |---|-------|---------------|---------------|
-| 1 | LaTeX | [docs/01-latex-f.md](docs/01-latex.md) | [examples/latex](examples/latex) |
-| 2 | Beamer | [docs/02-beamer-f.md](docs/02-beamer.md) | [examples/beamer](examples/beamer) |
+| 1 | LaTeX | [docs/01-latex.md](docs/01-latex.md) | [examples/latex](examples/latex) |
+| 2 | Beamer | [docs/02-beamer.md](docs/02-beamer.md) | [examples/beamer](examples/beamer) |
 | 3 | Doxygen | [docs/03-doxygen.md](docs/03-doxygen.md) | [examples/doxygen](examples/doxygen) |
 | 4 | Google Docs | [docs/04-google-docs.md](docs/04-google-docs.md) | – |
 | 5 | Git | [docs/05-git.md](docs/05-git.md) | [examples/git](examples/git) |
