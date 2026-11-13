@@ -1,0 +1,73 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{beaver}
+
+\title{Tools for Technical Writing}
+\subtitle{LaTeX, Beamer, Doxygen, Git and GitHub}
+\author{Pavan A Gowda}
+\institute{NIT Jaipur}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Typesetting}
+\begin{frame}{Why LaTeX?}
+  \begin{itemize}
+    \item<1-> Professional typesetting
+    \item<2-> Excellent mathematics
+    \item<3-> Automatic references and bibliography
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{A Formula}
+  \begin{block}{Pythagoras}
+    $a^2 + b^2 = c^2$
+  \end{block}
+  \begin{alertblock}{Remember}
+    Compile twice to resolve references.
+  \end{alertblock}
+\end{frame}
+
+\section{Documentation and Version Control}
+\begin{frame}[fragile]{Doxygen Comment}
+\begin{verbatim}
+/**
+ * @brief Adds two integers.
+ * @param a First operand
+ * @param b Second operand
+ * @return Sum
+ */
+int add(int a, int b);
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Git and GitHub}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \textbf{Git}
+      \begin{itemize}
+        \item Local version control
+        \item Branches, commits
+      \end{itemize}
+    \column{0.5\textwidth}
+      \textbf{GitHub}
+      \begin{itemize}
+        \item Hosting
+        \item Pull requests, issues
+      \end{itemize}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Thank You}
+  Questions?
+\end{frame}
+
+\end{document}

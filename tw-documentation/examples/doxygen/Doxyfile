@@ -1,0 +1,11 @@
+# Minimal Doxyfile. Regenerate a full one with: doxygen -g
+PROJECT_NAME           = "Calculator Example"
+PROJECT_BRIEF          = "Demo of Doxygen comments"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+OPTIMIZE_OUTPUT_FOR_C  = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO

@@ -1,0 +1,58 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, graphicx, booktabs, listings, hyperref}
+
+\title{Sample Technical Report}
+\author{Pavan A Gowda}
+\date{\today}
+
+\lstset{basicstyle=\ttfamily\small, frame=single, breaklines=true}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This report demonstrates core \LaTeX{} features: sections, lists, math,
+tables, code listings and cross-references (see Section~\ref{sec:math}).
+
+\section{Mathematics}\label{sec:math}
+Inline math: $a^2 + b^2 = c^2$. A numbered equation:
+\begin{equation}
+  \int_0^\infty e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
+  \label{eq:gauss}
+\end{equation}
+Equation~\eqref{eq:gauss} is the Gaussian integral.
+
+\section{Lists and Tables}
+\begin{itemize}
+  \item Version control: Git
+  \item Hosting: GitHub
+\end{itemize}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{lcc}
+    \toprule
+    Tool & Type & Output \\
+    \midrule
+    LaTeX   & Typesetting & PDF  \\
+    Doxygen & Code docs   & HTML \\
+    \bottomrule
+  \end{tabular}
+  \caption{Tools covered in TW.}
+  \label{tab:tools}
+\end{table}
+Table~\ref{tab:tools} summarizes the tools.
+
+\section{Code}
+\begin{lstlisting}[language=C]
+int add(int a, int b) { return a + b; }
+\end{lstlisting}
+
+\section{Conclusion}
+\LaTeX{} separates content from layout and produces consistent documents.
+
+\end{document}
